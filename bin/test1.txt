@@ -1,0 +1,13 @@
+LET
+   integer i;
+   integer n;
+   integer r;
+IN
+  p = READINT();
+  q = READINT();
+  r = READINT();
+  n = p + q/5 - r;
+  n = n * r;
+  n = -n;
+  PRINT(n);
+END

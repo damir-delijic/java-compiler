@@ -1,0 +1,9 @@
+LET
+    integer n;
+    integer x;
+IN
+    REPEAT;
+    a=a+1;
+    x = READINT();
+    UNTIL(a < 200);
+END
